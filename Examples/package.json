@@ -1,0 +1,15 @@
+{
+  "name": "group-docs.parser.cloud.node.examples",
+  "version": "1.0.0",
+  "description": "GroupDocs.Parser.Cloud.Node.Examples",
+  "main": "app.js",
+  "author": {
+    "name": "GroupDocs Product Team"
+  },
+  "dependencies": {
+    "groupdocs-parser-cloud": "^19.11.0"
+  },
+  "scripts": {
+    "start": "node RunExamples.js"
+  }
+}
