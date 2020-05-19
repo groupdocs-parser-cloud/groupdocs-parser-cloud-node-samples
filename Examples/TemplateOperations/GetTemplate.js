@@ -11,10 +11,10 @@ class GetTemplate {
         let template = await templateApi.getTemplate(request);
 
         template.fields.forEach(field => {
-            console.log("Filed: " + field.fieldName);
+            console.log("Field: " + field.fieldName);
         });
         template.tables.forEach(table => {
-            console.log("Filed: " + table.tableName);
+            console.log("Table: " + table.tableName);
         });
     }
 }
