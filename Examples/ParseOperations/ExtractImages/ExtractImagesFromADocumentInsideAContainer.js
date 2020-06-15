@@ -22,6 +22,7 @@ class ExtractImagesFromADocumentInsideAContainer {
             console.log("Images from " + page.pageIndex + " page.");
             page.images.forEach(image => {
                 console.log("Image path " + image.path + ". Download url: " + image.downloadUrl);
+                console.log("Image format " + image.fileFormat + ". Page index: " + image.pageIndex);
             });
         });
     }
